@@ -1,31 +1,63 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    .card-img-top {
+    width: 286px;
+}
 
-<div class="jumbotron">
-    <h1 class="display-4">Welcome to Contoso University</h1>
-    <p class="lead">We help Educators, help Students, help the world</p>
-    <hr class="my-4">
-    <p>Please let us let you gain the education you need!</p>
-    <p class="lead">
-        <a class="btn btn-primary btn-lg" href="~/Students/Create" role="button">Enroll Now</a>
-    </p>
+.banner-image-text {
+    color: black;
+}
+.title-three-third-caption {
+    color: white;
+}
+
+.card {
+    margin: 20px;
+}
+.row {
+    margin-left: 72px;
+}
+.middle-section {
+    text-align: center;
+}
+</style>
+    <div class="hero-image jumbotron">
+        <h1 class="banner-image-text"><strong>Welcome to Contoso University</strong></h1>
+        <p class="lead"><strong>We help Educators, help Students, help the world</strong></p>
+        <hr class="my-4">
+        <p class="title-three-third-caption"><strong>Please let us let you gain the education you need!</strong></p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="~/Students/Create" role="button">Enroll Now</a>
+        </p>
+    </div>
+<hr>
+<div class="middle-section">
+        <h1>Learn more about Contoso University</h1>
 </div>
+    <div class="row">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="~/Images/graduationPic.jpg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Contoso University helps more then 1500 students to graduate every year. We are one of the fasted growing...</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+            </div>
+        </div>
 
-<div class="row">
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="~/Images/graduationPic.jpg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Contoso University helps more then 1500 students to graduate every year. We are one of the fasted growing...</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="~/Images/graduationPic.jpg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Contoso University helps more then 1500 students to graduate every year. We are one of the fasted growing...</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+            </div>
         </div>
     </div>
-
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-</div>
